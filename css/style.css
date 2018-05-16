@@ -1,5 +1,7 @@
 /* CSS Document */
 @import url(header.css);
+@import url(footer.css);
+@import url(home.css);
 html, body, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, images {
   border: medium none;
   padding: 0;
