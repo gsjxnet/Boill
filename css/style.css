@@ -1,0 +1,147 @@
+/* CSS Document */
+@import url(header.css);
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, images {
+  border: medium none;
+  padding: 0;
+  margin: 0; }
+
+button, input, select, textarea {
+  font: 16px "Microsoft Yahei",tahoma,Srial,helvetica,sans-serif;
+  color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  width: 100%; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+em {
+  font-style: normal; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+a:hover, a:active {
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id 665744 */
+  src: url("http://at.alicdn.com/t/font_665744_5g9wtqs6skyb9.eot");
+  src: url("http://at.alicdn.com/t/font_665744_5g9wtqs6skyb9.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_665744_5g9wtqs6skyb9.woff") format("woff"), url("http://at.alicdn.com/t/font_665744_5g9wtqs6skyb9.ttf") format("truetype"), url("http://at.alicdn.com/t/font_665744_5g9wtqs6skyb9.svg#iconfont") format("svg"); }
+@font-face {
+  font-family: 'bodoni-regular';
+  src: url("fonts/bodoni-regular/bodoni-regular.eot");
+  src: url("fonts/bodoni-regular/bodoni-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bodoni-regular/bodoni-regular.woff") format("woff"), url("fonts/bodoni-regular/bodoni-regular.ttf") format("truetype"), url("fonts/bodoni-regular/bodoni-regular.svg#bodoni-regular") format("svg"); }
+@font-face {
+  font-family: 'coolveticarg-regular';
+  src: url("fonts/coolveticarg-regular/coolveticarg-regular.eot");
+  src: url("fonts/coolveticarg-regular/coolveticarg-regular.eot?#iefix") format("embedded-opentype"), url("fonts/coolveticarg-regular/coolveticarg-regular.woff") format("woff"), url("fonts/coolveticarg-regular/coolveticarg-regular.ttf") format("truetype"), url("fonts/coolveticarg-regular/coolveticarg-regular.svg#coolveticarg-regular") format("svg"); }
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url("fonts/fontawesome-webfont/fontawesome-webfont.eot");
+  src: url("fonts/fontawesome-webfont/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/fontawesome-webfont/fontawesome-webfont.woff") format("woff"), url("fonts/fontawesome-webfont/fontawesome-webfont.ttf") format("truetype"), url("fonts/fontawesome-webfont/fontawesome-webfont.svg#fontawesome-webfont") format("svg"); }
+@font-face {
+  font-family: 'gillsans';
+  src: url("fonts/gillsans/gillsans.eot");
+  src: url("fonts/gillsans/gillsans.eot?#iefix") format("embedded-opentype"), url("fonts/gillsans/gillsans.woff") format("woff"), url("fonts/gillsans/gillsans.ttf") format("truetype"), url("fonts/gillsans/gillsans.svg#gillsans") format("svg"); }
+@font-face {
+  font-family: 'century-gothic';
+  src: url("fonts/century-gothic/century-gothic.eot");
+  src: url("fonts/century-gothic/century-gothic.eot?#iefix") format("embedded-opentype"), url("fonts/century-gothic/century-gothic.woff") format("woff"), url("fonts/century-gothic/century-gothic.ttf") format("truetype"), url("fonts/century-gothic/century-gothic.svg#century-gothic") format("svg"); }
+.hidden_y {
+  overflow-y: hidden; }
+
+.space_between {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.flex_start {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.row_reverse_flex_start {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.column_space_between {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.column_flex_start {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.column_center {
+  /* Safari */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.animation {
+  transition: All 0.3s ease-in-out;
+  -webkit-transition: All 0.3s ease-in-out;
+  -moz-transition: All 0.3s ease-in-out;
+  -o-transition: All 0.3s ease-in-out; }
+
+/*# sourceMappingURL=style.css.map */
