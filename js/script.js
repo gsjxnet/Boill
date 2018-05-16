@@ -1,4 +1,34 @@
 $(document).ready(function($){
+
+      $('.autoplay').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: true,
+        autoplaySpeed: 2000,
+        responsive: [
+			{
+				breakpoint: 680,
+				settings: {
+					slidesToShow: 1,
+					dots: false,
+    				touchMove:true
+				}
+			}
+		]
+      });
+	$('.one-time').slick({
+	  dots: true,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 1,
+	  adaptiveHeight: true,
+	  arrows: false,
+	  autoplay: true,
+	  speed: 1000,
+	  autoplaySpeed:5000,
+	});
+	
 	/*------------ Scroll Start ------------*/
     $("#nav_mobile_bt").click(function(){
 	    $(".mobile_nav").slideToggle(600);
