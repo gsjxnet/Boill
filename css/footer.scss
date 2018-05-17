@@ -69,8 +69,11 @@ $yellow: #faa61a;
 		    @media (max-width: 490px) {
 		    	height: auto;
 		    }
+		    @media (max-width: 414px) {
+		    	padding: 15px 0;
+		    }
 			.footer_right_left{
-			font-family: 'gillsans';
+				font-family: 'gillsans';
 			    font-size: 12.8px;
 			    color: #6e6e6e;
 			    display: block;
@@ -82,9 +85,9 @@ $yellow: #faa61a;
 					margin-left: 0;
 				}
 				@media (max-width: 414px) {
-					height: auto;
-					line-height: 0;
-					margin: 10px 0;
+					height: 25px;
+					line-height: 25px;
+					padding: 2px 0;
 				}
 			}
 			.footer_right_right{
@@ -126,21 +129,13 @@ $yellow: #faa61a;
 					    height: 36px;
 						line-height: 36px;
 						letter-spacing: 1px;
-						@media (max-width: 414px) {
-							height: auto;
-							line-height: 0;
-							padding: 10px 0;
-						}
 						a{
 							color: #6e6e6e;
 							transition: All 0.3s ease-in-out;
 							-webkit-transition: All 0.3s ease-in-out;
 							-moz-transition: All 0.3s ease-in-out;
 							-o-transition: All 0.3s ease-in-out;
-							@media (max-width: 414px) {
-								display: inline-block;
-								padding: 10px 0;
-							}
+
 						}
 						&:hover{
 							a{
