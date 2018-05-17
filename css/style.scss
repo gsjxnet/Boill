@@ -62,6 +62,14 @@ a:hover,a:active {text-decoration:none;}
          url('fonts/century-gothic/century-gothic.ttf')  format('truetype'),
          url('fonts/century-gothic/century-gothic.svg#century-gothic') format('svg');
 }
+@font-face {
+  font-family: 'gillsans-light';
+  src: url('fonts/gillsans-light/gillsans-light.eot');
+  src: url('fonts/gillsans-light/gillsans-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gillsans-light/gillsans-light.woff') format('woff'),
+         url('fonts/gillsans-light/gillsans-light.ttf')  format('truetype'),
+         url('fonts/gillsans-light/gillsans-light.svg#gillsans-light') format('svg');
+}
 
 
 .hidden_y {

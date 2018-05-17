@@ -37,7 +37,7 @@
             position: relative;
             display: inline-block;
             width: 30px;
-            height: 26px; }
+            height: 21px; }
             .head .header .header_mobile a span {
               position: absolute;
               display: block;
@@ -52,7 +52,7 @@
             .head .header .header_mobile a .header_mobile_bt1 {
               top: 0; }
             .head .header .header_mobile a .header_mobile_bt2 {
-              top: 12px; }
+              top: 9px; }
             .head .header .header_mobile a .header_mobile_bt3 {
               bottom: 0px; }
             .head .header .header_mobile a .header_mobile_bt11 {
@@ -290,9 +290,8 @@
       height: 100%;
       top: 0;
       z-index: 3;
+      display: -webkit-flex;
       /* Safari */
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -318,9 +317,8 @@
       z-index: 4;
       height: 100%;
       overflow: hidden;
+      display: -webkit-flex;
       /* Safari */
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       flex-direction: column;
       justify-content: center;
